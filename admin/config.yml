@@ -1,0 +1,73 @@
+# ==========================================================================
+# Farlaz — Configuración del panel de edición
+# --------------------------------------------------------------------------
+# ⚠️  ANTES DE SUBIR: cambia 'repo' por tu usuario y repositorio de GitHub.
+#     Ejemplo: si tu usuario es luisfarrugia y el repo se llama farlaz,
+#     debe quedar:  repo: luisfarrugia/farlaz
+# ==========================================================================
+
+backend:
+  name: github
+  repo: TU-USUARIO/farlaz        # <-- CAMBIAR ESTO
+  branch: main                   # o master, según tu repositorio
+
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+collections:
+  # ---------------------------------------------------------------- Artículos
+  - name: "contenido"
+    label: "Contenido del sitio"
+    files:
+      - name: "articulos"
+        label: "Artículos"
+        file: "content/posts.json"
+        description: "Los artículos que aparecen en Análisis y en la portada. El primero de la lista es el más reciente."
+        fields:
+          - label: "Artículos"
+            name: "posts"
+            widget: "list"
+            label_singular: "Artículo"
+            summary: "{{fields.es.title}}"
+            fields:
+              - label: "Identificador (URL)"
+                name: "slug"
+                widget: "string"
+                hint: "Solo minúsculas y guiones. Ejemplo: como-leer-un-balance"
+
+              - label: "Categoría"
+                name: "cat"
+                widget: "select"
+                options:
+                  - { label: "Educación", value: "edu" }
+                  - { label: "Investigación", value: "res" }
+                  - { label: "Macro", value: "mac" }
+
+              - label: "Fecha"
+                name: "date"
+                widget: "datetime"
+                format: "YYYY-MM-DD"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                picker_utc: true
+
+              - label: "Minutos de lectura"
+                name: "minutes"
+                widget: "number"
+                value_type: "int"
+                min: 1
+                max: 60
+
+              - label: "Español"
+                name: "es"
+                widget: "object"
+                fields:
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Resumen", name: "excerpt", widget: "text" }
+
+              - label: "English"
+                name: "en"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Summary", name: "excerpt", widget: "text" }

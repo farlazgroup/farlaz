@@ -1,0 +1,83 @@
+/* ==========================================================================
+   Farlaz — Índice de artículos
+   --------------------------------------------------------------------------
+   AVISO: los cinco artículos de abajo son EJEMPLOS de estructura, no
+   contenido real publicado. Sustituye títulos, resúmenes y fechas por los
+   tuyos antes de poner el sitio en producción.
+
+   Para añadir uno nuevo, copia un bloque completo y cámbialo. El más
+   reciente va arriba. 'cat' admite: edu | res | mac
+   ========================================================================== */
+
+window.FARLAZ_POSTS = [
+  {
+    slug: "leer-estado-de-resultados",
+    cat: "edu",
+    date: "2026-07-23",
+    minutes: 9,
+    es: {
+      title: "Cómo leer una cuenta de resultados sin perderte en la primera línea",
+      excerpt: "Ingresos, margen bruto, EBITDA y beneficio neto explicados en el orden en que hay que mirarlos, y por qué el EBITDA es la cifra que más se manipula."
+    },
+    en: {
+      title: "How to read an income statement without getting lost on line one",
+      excerpt: "Revenue, gross margin, EBITDA and net income explained in the order you should look at them, and why EBITDA is the most manipulated figure of the lot."
+    }
+  },
+  {
+    slug: "tipos-de-interes-y-valoracion",
+    cat: "mac",
+    date: "2026-07-16",
+    minutes: 11,
+    es: {
+      title: "Por qué los tipos de interés mueven el precio de todo lo demás",
+      excerpt: "La tasa de descuento es el precio del tiempo. Cuando cambia, cambia el valor presente de cada flujo futuro: de una acción tecnológica a un piso en alquiler."
+    },
+    en: {
+      title: "Why interest rates move the price of everything else",
+      excerpt: "The discount rate is the price of time. When it shifts, the present value of every future cash flow shifts with it — from a tech stock to a rental flat."
+    }
+  },
+  {
+    slug: "senales-de-alarma-balance",
+    cat: "res",
+    date: "2026-07-09",
+    minutes: 8,
+    es: {
+      title: "Siete señales de alarma que un balance revela antes que el mercado",
+      excerpt: "Existencias que crecen más rápido que las ventas, deuda que se refinancia a corto y un fondo de comercio que nadie ha deteriorado en cinco años."
+    },
+    en: {
+      title: "Seven red flags a balance sheet shows before the market does",
+      excerpt: "Inventory growing faster than sales, debt refinanced short, and goodwill nobody has impaired in five years."
+    }
+  },
+  {
+    slug: "diversificacion-mal-entendida",
+    cat: "edu",
+    date: "2026-07-02",
+    minutes: 7,
+    es: {
+      title: "Tener veinte acciones no es estar diversificado",
+      excerpt: "Si las veinte se mueven juntas, tienes una sola posición repartida en veinte tickets. Qué es la correlación y cómo comprobarla antes de comprar."
+    },
+    en: {
+      title: "Owning twenty stocks is not diversification",
+      excerpt: "If all twenty move together, you hold one position split across twenty tickets. What correlation is, and how to check it before you buy."
+    }
+  },
+  {
+    slug: "descuento-de-flujos-limites",
+    cat: "res",
+    date: "2026-06-25",
+    minutes: 12,
+    es: {
+      title: "El descuento de flujos funciona, hasta que cambias un supuesto",
+      excerpt: "Construimos un modelo paso a paso y luego movemos la tasa de crecimiento perpetuo medio punto, para ver cómo se desmorona la valoración."
+    },
+    en: {
+      title: "DCF works, right up until you change one assumption",
+      excerpt: "We build a model step by step, then nudge the terminal growth rate by half a point to watch the valuation fall apart."
+    }
+  }
+];

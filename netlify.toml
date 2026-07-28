@@ -1,0 +1,62 @@
+# Configuración de despliegue en Netlify
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+    Permissions-Policy     = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# URLs limpias: /market en lugar de /market.html
+[[redirects]]
+  from = "/news"
+  to   = "/news.html"
+  status = 200
+[[redirects]]
+  from = "/learn"
+  to   = "/learn.html"
+  status = 200
+[[redirects]]
+  from = "/market"
+  to   = "/market.html"
+  status = 200
+[[redirects]]
+  from = "/insights"
+  to   = "/insights.html"
+  status = 200
+[[redirects]]
+  from = "/about"
+  to   = "/about.html"
+  status = 200
+[[redirects]]
+  from = "/contact"
+  to   = "/contact.html"
+  status = 200
+
+# Rutas antiguas de Squarespace que hoy están rotas
+[[redirects]]
+  from = "/new-page"
+  to   = "/privacy.html"
+  status = 301
+[[redirects]]
+  from = "/new-page-1"
+  to   = "/terms.html"
+  status = 301
+[[redirects]]
+  from = "/new-page-1-1"
+  to   = "/disclaimer.html"
+  status = 301
