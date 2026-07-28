@@ -8,7 +8,7 @@
 
 backend:
   name: github
-  repo: luisfarrugia/farlaz        # <-- CAMBIAR ESTO
+  repo: farlazgroup/farlaz        # <-- CAMBIAR ESTO
   branch: main                   # o master, según tu repositorio
 
 media_folder: "assets/img/uploads"
