@@ -398,6 +398,21 @@
     renderModuleIndex();
     renderModule();
     renderArticle();
+    mostrar();
+  }
+
+  /* Lo que dibuja reader.js nace con la clase .reveal, que es opacity 0 hasta
+     que algo le añade .is-in. main.js ya ha pasado por la página cuando esto
+     se ejecuta, así que hay que pedírselo explícitamente. */
+  function mostrar() {
+    if (typeof window.FARLAZ_REVEAL === "function") {
+      window.FARLAZ_REVEAL(document);
+      return;
+    }
+    // Si main.js no estuviera disponible, se muestran sin animación
+    document.querySelectorAll(".reveal:not(.is-in)").forEach(function (n) {
+      n.classList.add("is-in");
+    });
   }
 
   // Se ejecuta al cargar y cada vez que main.js cambia el idioma

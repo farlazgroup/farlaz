@@ -229,6 +229,11 @@
     });
   }
 
+  /* reader.js dibuja el curso y los artículos después de que main.js haya
+     arrancado, así que necesita poder pedir que se animen sus elementos.
+     Sin esto se quedan con opacity 0 y la página aparece en blanco. */
+  window.FARLAZ_REVEAL = revealIn;
+
   /* --- Formularios ------------------------------------------------------------- */
 
   function initForms() {
@@ -307,7 +312,7 @@
       'data-i18n-attr="aria-label:pm.close">&#215;</button>' +
       '<span class="promo__tag" data-i18n="pm.tag">Convocatoria abierta</span>' +
       '<h3 data-i18n="pm.h">Estamos formando la junta directiva</h3>' +
-      '<p data-i18n="pm.p">Nueve posiciones abiertas para el periodo 2026-2027.</p>' +
+      '<p data-i18n="pm.p">Ocho posiciones abiertas para el periodo 2026-2027.</p>' +
       '<div class="promo__row">' +
       '<a class="btn btn--primary btn--sm" href="' + PROMO_PAGE + '" data-i18n="pm.cta">Ver posiciones</a>' +
       '<button class="promo__later" type="button" data-i18n="pm.cta2">Ahora no</button>' +
