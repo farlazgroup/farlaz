@@ -185,6 +185,24 @@ window.FARLAZ_I18N = {
     "in.filter.mac": "Macro",
     "in.empty":      "No hay artículos en esta categoría todavía.",
 
+    /* Eventos */
+    "nav.events":    "Eventos",
+    "ev.title":      "Eventos | Farlaz",
+    "ev.desc":       "Sesiones en directo, talleres y encuentros de Farlaz. Programa en preparación: anunciamos cada convocatoria por el boletín.",
+    "ev.eyebrow":    "Agenda",
+    "ev.h1":         "Eventos",
+    "ev.lede":       "Estamos preparando el programa. Cuando haya fechas confirmadas aparecerán aquí y las anunciaremos por el boletín.",
+    "ev.soon":       "Próximamente",
+    "ev.c1.h":       "Sesiones en directo",
+    "ev.c1.p":       "Clases abiertas sobre los módulos del curso, con tiempo para preguntas al final. Online y sin coste.",
+    "ev.c2.h":       "Talleres prácticos",
+    "ev.c2.p":       "Trabajo sobre casos reales: leer unos estados financieros, montar una cartera, calcular el coste de un producto.",
+    "ev.c3.h":       "Encuentros presenciales",
+    "ev.c3.p":       "Charlas y mesas redondas en Panamá y en el resto de la región, con invitados del sector.",
+    "ev.note":       "No hay ningún evento con fecha confirmada todavía. Publicamos cada convocatoria con antelación suficiente para poder organizarse, y no cobramos por asistir a las sesiones abiertas.",
+    "ev.cta":        "Proponer un evento",
+    "ev.cta2":       "Mientras tanto, empieza el curso",
+
     /* --- Página Nosotros ---------------------------------------------- */
     "ab.title":      "Sobre Farlaz | Educación financiera para Latinoamérica",
     "ab.desc":       "Farlaz es una plataforma independiente de educación financiera e inteligencia de mercados enfocada en Latinoamérica.",
@@ -477,6 +495,24 @@ window.FARLAZ_I18N = {
     "in.filter.res": "Research",
     "in.filter.mac": "Macro",
     "in.empty":      "No articles in this category yet.",
+
+    /* Events */
+    "nav.events":    "Events",
+    "ev.title":      "Events | Farlaz",
+    "ev.desc":       "Live sessions, workshops and meetups from Farlaz. Programme in preparation: every date is announced through the newsletter.",
+    "ev.eyebrow":    "Calendar",
+    "ev.h1":         "Events",
+    "ev.lede":       "We're putting the programme together. Once dates are confirmed they'll appear here, and we'll announce them in the newsletter.",
+    "ev.soon":       "Coming soon",
+    "ev.c1.h":       "Live sessions",
+    "ev.c1.p":       "Open classes on the course modules, with time for questions at the end. Online and free to attend.",
+    "ev.c2.h":       "Hands-on workshops",
+    "ev.c2.p":       "Working through real cases: reading a set of accounts, building a portfolio, calculating what a product really costs.",
+    "ev.c3.h":       "In-person meetups",
+    "ev.c3.p":       "Talks and panels in Panama and across the region, with guests from the industry.",
+    "ev.note":       "No event has a confirmed date yet. We publish each one far enough ahead for people to organise around it, and open sessions are free to attend.",
+    "ev.cta":        "Suggest an event",
+    "ev.cta2":       "Meanwhile, start the course",
 
     /* --- About page ---------------------------------------------------------- */
     "ab.title":      "About Farlaz | Financial education for Latin America",
