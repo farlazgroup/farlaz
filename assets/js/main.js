@@ -277,6 +277,53 @@
       .catch(function () { /* sin conexión o sin archivo: seguimos con el fallback */ });
   }
 
+  /* --- Aviso de convocatoria ------------------------------------------------------- */
+
+  var PROMO_KEY   = "farlaz-promo-junta-2026";  // cambia el sufijo para volver a mostrarlo
+  var PROMO_PAGE  = "unete.html";
+  var PROMO_DELAY = 5000;
+
+  function promoVisto() {
+    try { return localStorage.getItem(PROMO_KEY) === "1"; } catch (e) { return false; }
+  }
+
+  function promoCerrar(box) {
+    try { localStorage.setItem(PROMO_KEY, "1"); } catch (e) {}
+    box.classList.remove("is-in");
+    setTimeout(function () { box.remove(); }, 400);
+  }
+
+  function initPromo() {
+    // No molestar en la propia página de la convocatoria
+    if (location.pathname.indexOf("unete") !== -1) return;
+    if (promoVisto()) return;
+
+    var box = document.createElement("aside");
+    box.className = "promo";
+    box.setAttribute("role", "complementary");
+    box.setAttribute("aria-label", "Convocatoria");
+    box.innerHTML =
+      '<button class="promo__close" type="button" aria-label="Cerrar" ' +
+      'data-i18n-attr="aria-label:pm.close">&#215;</button>' +
+      '<span class="promo__tag" data-i18n="pm.tag">Convocatoria abierta</span>' +
+      '<h3 data-i18n="pm.h">Estamos formando la junta directiva</h3>' +
+      '<p data-i18n="pm.p">Nueve posiciones abiertas para el periodo 2026-2027.</p>' +
+      '<div class="promo__row">' +
+      '<a class="btn btn--primary btn--sm" href="' + PROMO_PAGE + '" data-i18n="pm.cta">Ver posiciones</a>' +
+      '<button class="promo__later" type="button" data-i18n="pm.cta2">Ahora no</button>' +
+      '</div>';
+
+    document.body.appendChild(box);
+
+    box.querySelector(".promo__close").addEventListener("click", function () { promoCerrar(box); });
+    box.querySelector(".promo__later").addEventListener("click", function () { promoCerrar(box); });
+    box.querySelector(".btn").addEventListener("click", function () {
+      try { localStorage.setItem(PROMO_KEY, "1"); } catch (e) {}
+    });
+
+    setTimeout(function () { box.classList.add("is-in"); }, PROMO_DELAY);
+  }
+
   /* --- Arranque -------------------------------------------------------------------- */
 
   function boot() {
@@ -286,6 +333,7 @@
     initFilters();
     initFaq();
     initForms();
+    initPromo();
 
     document.querySelectorAll(".lang__btn").forEach(function (btn) {
       btn.addEventListener("click", function () {

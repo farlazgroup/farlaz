@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="es" data-title-key="ct.title" data-desc-key="ct.desc">
+<html lang="es" data-title-key="un.title" data-desc-key="un.desc">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contacto | Farlaz</title>
-<meta name="description" content="Escríbenos para colaboraciones, formación corporativa, prensa o dudas sobre nuestro contenido.">
-<link rel="canonical" href="https://www.farlaz.com/contact.html">
+<title>Únete a la junta directiva | Farlaz</title>
+<meta name="description" content="Farlaz busca junta directiva para el periodo 2026-2027: vicepresidencia, tesorería, contenido, comunicación, tecnología y alianzas. Convocatoria abierta.">
+<link rel="canonical" href="https://www.farlaz.com/unete.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Farlaz">
-<meta property="og:url" content="https://www.farlaz.com/contact.html">
-<meta property="og:title" content="Contacto | Farlaz">
-<meta property="og:description" content="Escríbenos para colaboraciones, formación corporativa, prensa o dudas sobre nuestro contenido.">
+<meta property="og:url" content="https://www.farlaz.com/unete.html">
+<meta property="og:title" content="Únete a la junta directiva | Farlaz">
+<meta property="og:description" content="Convocatoria abierta a la junta directiva de Farlaz para el periodo 2026-2027. Ocho posiciones.">
 <meta property="og:image" content="https://www.farlaz.com/assets/img/og-farlaz.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Contacto | Farlaz">
-<meta name="twitter:description" content="Escríbenos para colaboraciones, formación corporativa, prensa o dudas sobre nuestro contenido.">
+<meta name="twitter:title" content="Únete a la junta directiva | Farlaz">
+<meta name="twitter:description" content="Convocatoria abierta a la junta directiva de Farlaz. Ocho posiciones.">
 <meta name="twitter:image" content="https://www.farlaz.com/assets/img/og-farlaz.png">
 <meta name="theme-color" content="#04070B">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
@@ -65,80 +65,106 @@
 <main id="main">
 <section class="page-head">
   <div class="wrap">
-    <span class="eyebrow" data-i18n="ct.eyebrow">Contacto</span>
-    <h1 style="font-size:clamp(2.2rem,4.6vw,3.4rem)" data-i18n="ct.h1">Hablemos</h1>
-    <p class="lede" style="margin-top:18px" data-i18n="ct.lede">Colaboraciones, formación, prensa o una duda.</p>
+    <span class="eyebrow" data-i18n="un.eyebrow">Convocatoria abierta</span>
+    <h1 style="font-size:clamp(2.2rem,4.6vw,3.4rem)" data-i18n="un.h1">Únete a la junta directiva</h1>
+    <p class="lede" style="margin-top:18px" data-i18n="un.lede">Estamos formando la junta que llevará Farlaz durante el periodo 2026-2027. Ocho posiciones abiertas. Buscamos criterio, no currículos largos.</p>
+    <div style="margin-top:26px;display:flex;flex-wrap:wrap;gap:10px">
+      <a class="btn btn--primary" href="https://forms.gle/KyiGru677svNqeJp6" target="_blank" rel="noopener" data-i18n="un.cta">Postularme</a>
+      <a class="btn btn--ghost" href="#posiciones" data-i18n="un.cta2">Ver las posiciones</a>
+    </div>
+    <p class="form-note" style="margin-top:16px" data-i18n="un.deadline">Fecha límite: 31 de agosto de 2026. Rellenar el formulario lleva unos diez minutos.</p>
   </div>
 </section>
 
-<section class="section section--tight">
-  <div class="wrap split" style="align-items:start">
+<section class="section section--tight" id="posiciones">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="un.gov">Cargos de gobierno</span>
+    <p class="form-note" style="margin-top:12px;margin-bottom:0" data-i18n="un.gov.note">La presidencia la ocupa el fundador y no está abierta a convocatoria.</p>
+    <div class="grid grid--3" style="margin-top:22px">
 
-    <form class="reveal" name="contacto" method="POST" action="/gracias"
-          data-netlify="true" data-netlify-honeypot="bot-field">
-      <input type="hidden" name="form-name" value="contacto">
-      <p hidden><label>No rellenar: <input name="bot-field"></label></p>
-      <div class="field">
-        <label for="f-name" data-i18n="ct.f.name">Nombre</label>
-        <input id="f-name" name="name" type="text" required placeholder="Nombre y apellidos" data-i18n-attr="placeholder:ct.f.name.ph">
-      </div>
-      <div class="field">
-        <label for="f-email" data-i18n="ct.f.email">Correo electrónico</label>
-        <input id="f-email" name="email" type="email" required placeholder="tu@correo.com" data-i18n-attr="placeholder:ct.f.email.ph">
-      </div>
-      <div class="field">
-        <label for="f-topic" data-i18n="ct.f.topic">Motivo</label>
-        <select id="f-topic" name="topic">
-          <option data-i18n="ct.f.t1">Consulta general</option>
-          <option data-i18n="ct.f.t2">Formación para empresas</option>
-          <option data-i18n="ct.f.t3">Colaboración o alianza</option>
-          <option data-i18n="ct.f.t4">Prensa y medios</option>
-        </select>
-      </div>
-      <div class="field">
-        <label for="f-msg" data-i18n="ct.f.msg">Mensaje</label>
-        <textarea id="f-msg" name="message" required placeholder="Cuéntanos en qué podemos ayudarte" data-i18n-attr="placeholder:ct.f.msg.ph"></textarea>
-      </div>
-      <button class="btn btn--primary" type="submit" data-i18n="ct.f.send">Enviar mensaje</button>
-      <p class="form-note" data-i18n="ct.f.note">Al enviar aceptas nuestra Política de Privacidad.</p>
-    </form>
+      <article class="card">
+        <div class="modcard__top"><span class="tag" data-i18n="un.open">Abierta</span></div>
+        <h3 data-i18n="un.p2.h">Vicepresidente</h3>
+        <p data-i18n="un.p2.p">Segundo al mando. Asume los proyectos que delegue la presidencia y sustituye en su ausencia.</p>
+      </article>
 
-    <div class="reveal" style="display:grid;gap:18px">
-      <div class="card">
-        <h3 data-i18n="ct.dir.h3">Contacto directo</h3>
-        <p style="margin-top:14px">
-          <strong style="color:var(--text-2);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em;font-family:var(--mono)" data-i18n="ct.dir.email">Correo</strong><br>
-          <a href="mailto:contact@farlaz.com" style="color:var(--accent)">contact@farlaz.com</a>
-        </p>
-        <p style="margin-top:16px">
-          <strong style="color:var(--text-2);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em;font-family:var(--mono)" data-i18n="ct.dir.social">Redes</strong>
-        </p>
-        <div class="socials" style="margin-top:8px">
-          <a href="https://www.linkedin.com/company/farlaz/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3.4 5.6h2.2V13H3.4V5.6zm1.1-3.4a1.3 1.3 0 110 2.6 1.3 1.3 0 010-2.6zM7.1 5.6h2.1v1h.03c.3-.55 1.02-1.13 2.1-1.13 2.24 0 2.66 1.44 2.66 3.32V13h-2.2V9.24c0-.9-.02-2.05-1.27-2.05-1.27 0-1.46.97-1.46 1.98V13H7.1V5.6z"/></svg></a>
-          <a href="https://www.instagram.com/farlazgroup/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="2.2" y="2.2" width="11.6" height="11.6" rx="3.4" stroke="currentColor" stroke-width="1.3"/><circle cx="8" cy="8" r="2.7" stroke="currentColor" stroke-width="1.3"/><circle cx="11.4" cy="4.6" r="0.85" fill="currentColor"/></svg></a>
-        </div>
-      </div>
+      <article class="card">
+        <div class="modcard__top"><span class="tag" data-i18n="un.open">Abierta</span></div>
+        <h3 data-i18n="un.p3.h">Secretario</h3>
+        <p data-i18n="un.p3.p">Actas, documentación y registro de acuerdos. Sostiene la memoria de la organización.</p>
+      </article>
 
-      <div class="card">
-        <h3 data-i18n="ct.dir.book">Agenda</h3>
-        <p style="margin:12px 0 18px" data-i18n="ct.dir.book.d">Reserva una llamada de 30 minutos.</p>
-        <a class="btn btn--ghost btn--sm" href="https://calendly.com/contact-farlaz/30min" target="_blank" rel="noopener" data-i18n="ct.dir.book.b">Ver disponibilidad</a>
-      </div>
+      <article class="card">
+        <div class="modcard__top"><span class="tag" data-i18n="un.open">Abierta</span></div>
+        <h3 data-i18n="un.p4.h">Tesorero</h3>
+        <p data-i18n="un.p4.p">Cuentas, presupuesto y rendición periódica ante la junta.</p>
+      </article>
 
-      <div class="card">
-        <h3 data-i18n="ct.dir.time">Horario de respuesta</h3>
-        <p style="margin-top:12px" data-i18n="ct.dir.time.d">Lunes a viernes, 9:00–18:00 (GMT-5).</p>
-      </div>
-
-      <div class="notice">
-        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6.8" stroke="currentColor" stroke-width="1.3"/><path d="M8.5 7.6V12M8.5 5.2v.9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        <p data-i18n="ct.warn">Farlaz no ofrece asesoramiento de inversión personalizado.</p>
-      </div>
     </div>
 
+    <span class="eyebrow" style="display:inline-block;margin-top:52px" data-i18n="un.ops">Direcciones operativas</span>
+    <div class="grid grid--3" style="margin-top:22px">
+
+      <article class="card">
+        <div class="modcard__top"><span class="tag" data-i18n="un.open">Abierta</span></div>
+        <h3 data-i18n="un.p5.h">Director de Contenido</h3>
+        <p data-i18n="un.p5.p">El curso y los artículos: qué se publica y con qué calidad. El puesto más determinante de todos.</p>
+      </article>
+
+      <article class="card">
+        <div class="modcard__top"><span class="tag" data-i18n="un.open">Abierta</span></div>
+        <h3 data-i18n="un.p6.h">Director de Comunicación</h3>
+        <p data-i18n="un.p6.p">Redes y boletín semanal. Hacer crecer la audiencia sin el lenguaje de venta que aquí rechazamos.</p>
+      </article>
+
+      <article class="card">
+        <div class="modcard__top"><span class="tag" data-i18n="un.open">Abierta</span></div>
+        <h3 data-i18n="un.p7.h">Director de Tecnología</h3>
+        <p data-i18n="un.p7.p">El sitio, el panel de edición y los datos de mercado. Que publicar deje de exigir tocar código.</p>
+      </article>
+
+      <article class="card">
+        <div class="modcard__top"><span class="tag" data-i18n="un.open">Abierta</span></div>
+        <h3 data-i18n="un.p8.h">Director de Alianzas</h3>
+        <p data-i18n="un.p8.p">Universidades, colegios profesionales, cámaras y eventos.</p>
+      </article>
+
+      <article class="card">
+        <div class="modcard__top"><span class="tag" data-i18n="un.open">Abierta</span></div>
+        <h3 data-i18n="un.p9.h">Vocal</h3>
+        <p data-i18n="un.p9.p">Miembro de la junta sin cartera fija. Apoya proyectos concretos y vota. La entrada natural si prefieres empezar sin cargo.</p>
+      </article>
+
+    </div>
   </div>
 </section>
 
+<section class="section section--tight section--alt">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="un.req">Lo que pedimos a todos</span>
+    <div class="grid grid--3" style="margin-top:22px">
+      <article class="card">
+        <h3 data-i18n="un.r1.h">Declarar conflictos</h3>
+        <p data-i18n="un.r1.p">Si trabajas en un banco, una casa de bolsa o una gestora, hay que decirlo y se publica. No descalifica; ocultarlo sí.</p>
+      </article>
+      <article class="card">
+        <h3 data-i18n="un.r2.h">Coherencia con la voz</h3>
+        <p data-i18n="un.r2.p">Nadie en la junta publica promesas de rentabilidad ni recomendaciones personalizadas mientras represente a Farlaz.</p>
+      </article>
+      <article class="card">
+        <h3 data-i18n="un.r3.h">Compromiso realista</h3>
+        <p data-i18n="un.r3.p">Mandato de un año renovable y tres meses de prueba con un entregable acordado. Preferimos poco y firme a mucho y efímero.</p>
+      </article>
+    </div>
+
+    <p class="form-note" style="margin-top:28px" data-i18n="un.note">La compensación se define según el cargo y la dedicación, y se acuerda por escrito antes de la incorporación. Respondemos a todas las postulaciones, también a las que no salen adelante.</p>
+
+    <div style="margin-top:26px;display:flex;flex-wrap:wrap;gap:10px">
+      <a class="btn btn--primary" href="https://forms.gle/KyiGru677svNqeJp6" target="_blank" rel="noopener" data-i18n="un.cta">Postularme</a>
+      <a class="btn btn--ghost" href="contact.html" data-i18n="un.cta3">Tengo una duda antes</a>
+    </div>
+  </div>
+</section>
 </main>
 
 <footer class="footer">
@@ -212,7 +238,6 @@
 </footer>
 
 <script src="assets/js/i18n.js"></script>
-<script src="assets/js/posts.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
