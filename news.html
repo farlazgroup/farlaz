@@ -228,9 +228,13 @@
     <div class="subscribe reveal">
       <h2 data-i18n="sub.h2">Un análisis a la semana. Nada más.</h2>
       <p class="lede" data-i18n="sub.lede">Los jueves enviamos un correo.</p>
-      <form class="subscribe__form" data-demo>
+      <form class="subscribe__form" name="boletin" method="POST" action="/gracias"
+            data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="boletin">
+        <p hidden><label>No rellenar: <input name="bot-field"></label></p>
         <label class="sr-only" for="sub-email">Email</label>
-        <input id="sub-email" type="email" required placeholder="tu@correo.com" data-i18n-attr="placeholder:sub.ph">
+        <input id="sub-email" name="email" type="email" required
+               placeholder="tu@correo.com" data-i18n-attr="placeholder:sub.ph">
         <button class="btn btn--primary" type="submit" data-i18n="sub.btn">Suscribirme</button>
       </form>
       <p class="form-note" data-i18n="sub.note">Puedes darte de baja con un clic.</p>

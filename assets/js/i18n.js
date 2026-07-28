@@ -203,6 +203,16 @@ window.FARLAZ_I18N = {
     "ev.cta":        "Proponer un evento",
     "ev.cta2":       "Mientras tanto, empieza el curso",
 
+    /* Gracias */
+    "gr.title":      "Mensaje recibido | Farlaz",
+    "gr.desc":       "Hemos recibido tu mensaje.",
+    "gr.eyebrow":    "Recibido",
+    "gr.h1":         "Gracias, ya nos ha llegado",
+    "gr.lede":       "Respondemos todos los mensajes en un plazo de dos días laborables. Si escribiste para suscribirte al boletín, el primer correo te llegará el jueves.",
+    "gr.note":       "Si en dos días no has recibido respuesta, revisa la carpeta de correo no deseado o escríbenos directamente a contact@farlaz.com.",
+    "gr.back":       "Volver al inicio",
+    "gr.learn":      "Empezar el curso",
+
     /* --- Página Nosotros ---------------------------------------------- */
     "ab.title":      "Sobre Farlaz | Educación financiera para Latinoamérica",
     "ab.desc":       "Farlaz es una plataforma independiente de educación financiera e inteligencia de mercados enfocada en Latinoamérica.",
@@ -513,6 +523,16 @@ window.FARLAZ_I18N = {
     "ev.note":       "No event has a confirmed date yet. We publish each one far enough ahead for people to organise around it, and open sessions are free to attend.",
     "ev.cta":        "Suggest an event",
     "ev.cta2":       "Meanwhile, start the course",
+
+    /* Thanks */
+    "gr.title":      "Message received | Farlaz",
+    "gr.desc":       "We've received your message.",
+    "gr.eyebrow":    "Received",
+    "gr.h1":         "Thanks, it reached us",
+    "gr.lede":       "We answer every message within two working days. If you signed up for the newsletter, the first email arrives on Thursday.",
+    "gr.note":       "If you haven't heard back within two days, check your spam folder or write to us directly at contact@farlaz.com.",
+    "gr.back":       "Back to home",
+    "gr.learn":      "Start the course",
 
     /* --- About page ---------------------------------------------------------- */
     "ab.title":      "About Farlaz | Financial education for Latin America",

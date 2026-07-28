@@ -73,7 +73,10 @@
 <section class="section section--tight">
   <div class="wrap split" style="align-items:start">
 
-    <form class="reveal" data-demo>
+    <form class="reveal" name="contacto" method="POST" action="/gracias"
+          data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contacto">
+      <p hidden><label>No rellenar: <input name="bot-field"></label></p>
       <div class="field">
         <label for="f-name" data-i18n="ct.f.name">Nombre</label>
         <input id="f-name" name="name" type="text" required placeholder="Nombre y apellidos" data-i18n-attr="placeholder:ct.f.name.ph">
@@ -118,7 +121,7 @@
       <div class="card">
         <h3 data-i18n="ct.dir.book">Agenda</h3>
         <p style="margin:12px 0 18px" data-i18n="ct.dir.book.d">Reserva una llamada de 30 minutos.</p>
-        <a class="btn btn--ghost btn--sm" href="#" data-i18n="ct.dir.book.b">Ver disponibilidad</a>
+        <a class="btn btn--ghost btn--sm" href="https://calendly.com/contact-farlaz/30min" target="_blank" rel="noopener" data-i18n="ct.dir.book.b">Ver disponibilidad</a>
       </div>
 
       <div class="card">
