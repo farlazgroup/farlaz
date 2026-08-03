@@ -39,6 +39,13 @@
       el.textContent = t(el.getAttribute("data-i18n"));
     });
 
+    /* Texto con marcado. Las páginas legales llevan enlaces y negritas dentro
+       del párrafo, y textContent los borraría. El contenido sale siempre de
+       i18n.js, que es nuestro, nunca de nada que escriba el usuario. */
+    document.querySelectorAll("[data-i18n-html]").forEach(function (el) {
+      el.innerHTML = t(el.getAttribute("data-i18n-html"));
+    });
+
     // Atributos: data-i18n-attr="placeholder:clave, aria-label:otra"
     document.querySelectorAll("[data-i18n-attr]").forEach(function (el) {
       el.getAttribute("data-i18n-attr").split(",").forEach(function (pair) {
