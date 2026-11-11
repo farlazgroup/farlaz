@@ -9,6 +9,24 @@
   var DICT  = window.FARLAZ_I18N || {};
   var lang  = "es";
 
+  /* --- Publicación programada -------------------------------------------
+     Un artículo solo aparece cuando llega su fecha (hora de Panamá, UTC-5).
+     Así se pueden dejar escritos con antelación en content/posts.json y
+     salen solos cada jueves, sin tocar nada. */
+
+  function todayPanama() {
+    return new Date(Date.now() - 5 * 3600 * 1000).toISOString().slice(0, 10);
+  }
+
+  function publishedOnly(list) {
+    var today = todayPanama();
+    return (list || [])
+      .filter(function (p) { return p && p.date && String(p.date).slice(0, 10) <= today; })
+      .sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+  }
+
+  window.FARLAZ_POSTS = publishedOnly(window.FARLAZ_POSTS);
+
   /* --- Idioma ---------------------------------------------------------- */
 
   function detectLang() {
@@ -283,7 +301,7 @@
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (data) {
         if (data && Array.isArray(data.posts) && data.posts.length) {
-          window.FARLAZ_POSTS = data.posts;
+          window.FARLAZ_POSTS = publishedOnly(data.posts);
         }
       })
       .catch(function () { /* sin conexión o sin archivo: seguimos con el fallback */ });
@@ -345,7 +363,7 @@
     initFilters();
     initFaq();
     initForms();
-    initPromo();
+    // initPromo();  // convocatoria de la junta cerrada el 31-ago-2026
 
     document.querySelectorAll(".lang__btn").forEach(function (btn) {
       btn.addEventListener("click", function () {

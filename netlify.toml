@@ -65,6 +65,14 @@
   to   = "/unete.html"
   status = 200
 [[redirects]]
+  from = "/academy"
+  to   = "/academy.html"
+  status = 200
+[[redirects]]
+  from = "/academia"
+  to   = "/academy.html"
+  status = 301
+[[redirects]]
   from = "/about"
   to   = "/about.html"
   status = 200

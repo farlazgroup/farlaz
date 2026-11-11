@@ -1,6 +1,426 @@
 {
   "posts": [
     {
+      "slug": "ventaja-competitiva-roic",
+      "cat": "res",
+      "date": "2027-02-18",
+      "minutes": 8,
+      "es": {
+        "title": "Cómo se ve una ventaja competitiva en los números: el ROIC",
+        "excerpt": "Todas las empresas dicen tener una ventaja. Pocas lo demuestran. La rentabilidad sobre el capital invertido, sostenida en el tiempo, es la prueba más difícil de falsificar."
+      },
+      "en": {
+        "title": "What a competitive advantage looks like in the numbers: ROIC",
+        "excerpt": "Every company claims an edge. Few prove it. Return on invested capital, sustained over time, is the hardest evidence to fake."
+      }
+    },
+    {
+      "slug": "riesgo-pais-y-diferenciales",
+      "cat": "mac",
+      "date": "2027-02-11",
+      "minutes": 8,
+      "es": {
+        "title": "Riesgo país: qué mide el diferencial soberano y por qué te afecta aunque no tengas bonos",
+        "excerpt": "Cuando el diferencial de un país se amplía, sube el costo del crédito para todos, desde el Estado hasta tu hipoteca. Cómo se lee y qué lo mueve."
+      },
+      "en": {
+        "title": "Country risk: what sovereign spreads measure and why they affect you even without bonds",
+        "excerpt": "When a country's spread widens, borrowing gets dearer for everyone, from the state to your mortgage. How to read it and what moves it."
+      }
+    },
+    {
+      "slug": "riesgo-de-secuencia",
+      "cat": "edu",
+      "date": "2027-02-04",
+      "minutes": 7,
+      "es": {
+        "title": "Riesgo de secuencia: la misma rentabilidad media, dos jubilaciones distintas",
+        "excerpt": "Mientras ahorras, el orden de los años buenos y malos da igual. Cuando empiezas a retirar dinero, lo cambia todo. Un ejemplo con números."
+      },
+      "en": {
+        "title": "Sequence risk: the same average return, two different retirements",
+        "excerpt": "While you save, the order of good and bad years doesn't matter. Once you start withdrawing, it changes everything. A worked example."
+      }
+    },
+    {
+      "slug": "calidad-de-beneficios",
+      "cat": "res",
+      "date": "2027-01-28",
+      "minutes": 8,
+      "es": {
+        "title": "Calidad de beneficios: cuando el beneficio y la caja se separan",
+        "excerpt": "Dos empresas ganan lo mismo. Una lo cobra y la otra lo apunta. El ratio de devengos te dice cuál es cuál, y la investigación dice que importa."
+      },
+      "en": {
+        "title": "Earnings quality: when profit and cash drift apart",
+        "excerpt": "Two companies earn the same. One collects it and the other books it. The accruals ratio tells you which is which, and research says it matters."
+      }
+    },
+    {
+      "slug": "opciones-sin-formulas",
+      "cat": "edu",
+      "date": "2027-01-21",
+      "minutes": 9,
+      "es": {
+        "title": "Opciones explicadas sin fórmulas: calls, puts y lo que realmente compras",
+        "excerpt": "Una opción es un derecho, no una obligación, y ese derecho tiene precio y fecha de caducidad. Lo esencial para entender el instrumento antes de pensar en usarlo."
+      },
+      "en": {
+        "title": "Options without formulas: calls, puts and what you're actually buying",
+        "excerpt": "An option is a right, not an obligation, and that right has a price and an expiry date. The essentials for understanding the instrument before thinking of using it."
+      }
+    },
+    {
+      "slug": "tasa-neutral",
+      "cat": "mac",
+      "date": "2027-01-14",
+      "minutes": 8,
+      "es": {
+        "title": "La tasa neutral: el número que los bancos centrales buscan y nadie puede ver",
+        "excerpt": "Ni estimula ni frena la economía. Es la referencia de toda decisión de tasas y, sin embargo, solo se puede estimar. Por qué importa para tus inversiones."
+      },
+      "en": {
+        "title": "The neutral rate: the number central banks chase and nobody can see",
+        "excerpt": "It neither stimulates nor slows the economy. It anchors every rate decision and yet can only be estimated. Why it matters for your investments."
+      }
+    },
+    {
+      "slug": "capital-de-trabajo",
+      "cat": "res",
+      "date": "2027-01-07",
+      "minutes": 8,
+      "es": {
+        "title": "La empresa que crece y se queda sin caja: el capital de trabajo",
+        "excerpt": "Vender más puede costar dinero antes de generarlo. Inventario, cuentas por cobrar y proveedores: los tres números que explican por qué empresas rentables quiebran."
+      },
+      "en": {
+        "title": "The company that grows and runs out of cash: working capital",
+        "excerpt": "Selling more can cost money before it makes any. Inventory, receivables and payables: the three numbers that explain why profitable companies go bust."
+      }
+    },
+    {
+      "slug": "revision-anual-de-cartera",
+      "cat": "edu",
+      "date": "2026-12-31",
+      "minutes": 6,
+      "es": {
+        "title": "La revisión anual de tu cartera en siete preguntas",
+        "excerpt": "Una vez al año basta, si se hace bien. Siete preguntas para revisar tus inversiones sin caer en la tentación de cambiarlo todo."
+      },
+      "en": {
+        "title": "Your annual portfolio review in seven questions",
+        "excerpt": "Once a year is enough, if it's done properly. Seven questions to review your investments without the temptation to change everything."
+      }
+    },
+    {
+      "slug": "que-hacer-con-un-ingreso-extra",
+      "cat": "edu",
+      "date": "2026-12-24",
+      "minutes": 6,
+      "es": {
+        "title": "Un ingreso extra de fin de año: el orden en que conviene usarlo",
+        "excerpt": "Décimo tercer mes, aguinaldo, bono. Antes de decidir en qué gastarlo o invertirlo, hay una secuencia que casi siempre da mejor resultado."
+      },
+      "en": {
+        "title": "Extra income at year end: the order in which to use it",
+        "excerpt": "A thirteenth-month salary, a Christmas bonus, a work bonus. Before deciding what to spend or invest it on, there's a sequence that almost always works better."
+      }
+    },
+    {
+      "slug": "sesgo-local-diversificacion",
+      "cat": "edu",
+      "date": "2026-12-17",
+      "minutes": 7,
+      "es": {
+        "title": "El sesgo local: por qué casi todos invertimos demasiado cerca de casa",
+        "excerpt": "Tu sueldo, tu casa y tu negocio ya dependen de la economía de tu país. Llenar también la cartera de activos locales es concentrar el riesgo, no conocerlo."
+      },
+      "en": {
+        "title": "Home bias: why almost everyone invests too close to home",
+        "excerpt": "Your salary, your home and your business already depend on your country's economy. Filling your portfolio with local assets too concentrates risk rather than knowing it."
+      }
+    },
+    {
+      "slug": "apalancamiento-operativo",
+      "cat": "res",
+      "date": "2026-12-10",
+      "minutes": 7,
+      "es": {
+        "title": "Apalancamiento operativo: por qué algunas empresas casi duplican su beneficio cuando venden un 10% más",
+        "excerpt": "Los costes fijos amplifican todo: las subidas y las caídas. Cómo detectar en la cuenta de resultados qué empresas tienen el pie en el acelerador."
+      },
+      "en": {
+        "title": "Operating leverage: why some companies almost double their profit when they sell 10% more",
+        "excerpt": "Fixed costs amplify everything, upswings and downturns alike. How to spot in the income statement which companies have their foot on the accelerator."
+      }
+    },
+    {
+      "slug": "petroleo-y-latinoamerica",
+      "cat": "mac",
+      "date": "2026-12-03",
+      "minutes": 8,
+      "es": {
+        "title": "El petróleo no afecta igual a toda Latinoamérica",
+        "excerpt": "Para unos países el barril caro es ingreso fiscal; para otros es inflación importada. Cómo leer el precio del crudo según dónde vivas e inviertas."
+      },
+      "en": {
+        "title": "Oil doesn't hit all of Latin America the same way",
+        "excerpt": "For some countries an expensive barrel is tax revenue; for others it's imported inflation. How to read the oil price depending on where you live and invest."
+      }
+    },
+    {
+      "slug": "aportaciones-periodicas-vs-unica",
+      "cat": "edu",
+      "date": "2026-11-26",
+      "minutes": 7,
+      "es": {
+        "title": "Invertir todo de golpe o poco a poco: lo que dicen los números",
+        "excerpt": "Si tienes una suma para invertir, entrar de una vez gana la mayoría de las veces. Entonces, ¿por qué tanta gente recomienda repartirla? Porque la pregunta no es solo matemática."
+      },
+      "en": {
+        "title": "Invest it all at once or bit by bit: what the numbers say",
+        "excerpt": "If you have a lump sum, going in at once wins most of the time. So why do so many people recommend spreading it out? Because the question isn't only mathematical."
+      }
+    },
+    {
+      "slug": "recompras-de-acciones",
+      "cat": "res",
+      "date": "2026-11-19",
+      "minutes": 8,
+      "es": {
+        "title": "Recompras de acciones: cuándo crean valor y cuándo solo lo aparentan",
+        "excerpt": "Comprar acciones propias puede ser la mejor decisión de capital de una empresa o la peor. Depende de una sola variable: el precio que paga."
+      },
+      "en": {
+        "title": "Share buybacks: when they create value and when they only look like it",
+        "excerpt": "Buying back its own shares can be a company's best capital decision or its worst. It depends on one variable: the price it pays."
+      }
+    },
+    {
+      "slug": "tarjeta-de-credito-pago-minimo",
+      "cat": "edu",
+      "date": "2026-11-12",
+      "minutes": 7,
+      "es": {
+        "title": "El pago mínimo de la tarjeta: cómo 2.000 dólares se convierten en catorce años de deuda",
+        "excerpt": "La tarjeta de crédito es la deuda más cara que la mayoría de la gente tiene, y el pago mínimo está diseñado para que dure. Los números, mes a mes."
+      },
+      "en": {
+        "title": "The minimum payment: how 2,000 dollars becomes fourteen years of debt",
+        "excerpt": "A credit card is the most expensive debt most people carry, and the minimum payment is designed to make it last. The numbers, month by month."
+      }
+    },
+    {
+      "slug": "leer-un-dato-macro",
+      "cat": "mac",
+      "date": "2026-11-05",
+      "minutes": 7,
+      "es": {
+        "title": "Cómo leer un dato macro: el número importa menos que la sorpresa",
+        "excerpt": "El empleo sube y la bolsa cae. La inflación baja y la bolsa cae también. No es irracional: el mercado reacciona a la diferencia entre lo esperado y lo publicado."
+      },
+      "en": {
+        "title": "How to read a macro release: the number matters less than the surprise",
+        "excerpt": "Jobs rise and stocks fall. Inflation drops and stocks fall too. It isn't irrational: markets react to the gap between what was expected and what was published."
+      }
+    },
+    {
+      "slug": "rebalancear-cartera",
+      "cat": "edu",
+      "date": "2026-10-29",
+      "minutes": 7,
+      "es": {
+        "title": "Rebalancear: vender lo que sube parece absurdo hasta que lo calculas",
+        "excerpt": "Una cartera que nadie toca no se queda quieta: cambia de riesgo sola. Qué es rebalancear, cada cuánto conviene hacerlo y qué cuesta no hacerlo."
+      },
+      "en": {
+        "title": "Rebalancing: selling what's rising looks absurd until you run the numbers",
+        "excerpt": "A portfolio nobody touches doesn't stand still: its risk changes on its own. What rebalancing is, how often to do it and what it costs not to."
+      }
+    },
+    {
+      "slug": "dilucion-y-stock-options",
+      "cat": "res",
+      "date": "2026-10-22",
+      "minutes": 8,
+      "es": {
+        "title": "Dilución: cuando tu parte de la empresa se encoge sin que vendas nada",
+        "excerpt": "Ampliaciones de capital, opciones para directivos y deuda convertible. Por qué el beneficio por acción importa más que el beneficio total, y dónde mirar el número de acciones."
+      },
+      "en": {
+        "title": "Dilution: when your share of the company shrinks without you selling anything",
+        "excerpt": "Share issues, executive options and convertible debt. Why earnings per share matter more than total earnings, and where to check the share count."
+      }
+    },
+    {
+      "slug": "aversion-a-la-perdida",
+      "cat": "edu",
+      "date": "2026-10-15",
+      "minutes": 7,
+      "es": {
+        "title": "Vendes lo que gana y aguantas lo que pierde: el efecto disposición",
+        "excerpt": "Perder 100 duele más de lo que alegra ganar 100. Ese desequilibrio empuja a casi todos los inversores a hacer justo lo contrario de lo que harían con la cabeza fría."
+      },
+      "en": {
+        "title": "You sell winners and hold losers: the disposition effect",
+        "excerpt": "Losing 100 hurts more than gaining 100 pleases. That imbalance pushes almost every investor to do the opposite of what they would do with a cool head."
+      }
+    },
+    {
+      "slug": "dolar-fuerte-emergentes",
+      "cat": "mac",
+      "date": "2026-10-08",
+      "minutes": 8,
+      "es": {
+        "title": "Cuando el dólar se fortalece, Latinoamérica lo nota primero",
+        "excerpt": "Deuda en dólares, materias primas cotizadas en dólares y capital que vuelve a casa. Los tres canales por los que un dólar fuerte aprieta a los mercados emergentes."
+      },
+      "en": {
+        "title": "When the dollar strengthens, Latin America feels it first",
+        "excerpt": "Dollar debt, commodities priced in dollars and capital heading home. The three channels through which a strong dollar squeezes emerging markets."
+      }
+    },
+    {
+      "slug": "comisiones-de-fondos",
+      "cat": "edu",
+      "date": "2026-10-01",
+      "minutes": 7,
+      "es": {
+        "title": "El 1,5% que se come un tercio de tu patrimonio",
+        "excerpt": "Una comisión anual parece pequeña porque se presenta como porcentaje de un año. Calculada sobre treinta, es otra cosa. Cómo leer lo que de verdad cuesta un fondo."
+      },
+      "en": {
+        "title": "The 1.5% that eats a third of your wealth",
+        "excerpt": "An annual fee looks small because it's quoted as a percentage of one year. Measured over thirty, it's something else. How to read what a fund really costs."
+      }
+    },
+    {
+      "slug": "roe-y-apalancamiento-dupont",
+      "cat": "res",
+      "date": "2026-09-24",
+      "minutes": 8,
+      "es": {
+        "title": "Un ROE del 25% puede ser una mala noticia: el análisis DuPont",
+        "excerpt": "La rentabilidad sobre el patrimonio se puede fabricar con deuda. Descomponerla en tres piezas te dice si el negocio es bueno o solo está apalancado."
+      },
+      "en": {
+        "title": "A 25% ROE can be bad news: the DuPont breakdown",
+        "excerpt": "Return on equity can be manufactured with debt. Splitting it into three parts tells you whether the business is good or just leveraged."
+      }
+    },
+    {
+      "slug": "bonos-precio-y-duracion",
+      "cat": "edu",
+      "date": "2026-09-17",
+      "minutes": 8,
+      "es": {
+        "title": "Por qué un bono baja de precio cuando suben las tasas (y cuánto)",
+        "excerpt": "La relación inversa entre precio y rendimiento, explicada con un solo bono. Y la duración: el número que te dice cuánto vas a sufrir antes de comprar."
+      },
+      "en": {
+        "title": "Why a bond falls in price when rates rise (and by how much)",
+        "excerpt": "The inverse link between price and yield, explained with a single bond. And duration: the number that tells you how much it will hurt before you buy."
+      }
+    },
+    {
+      "slug": "curva-de-tipos-invertida",
+      "cat": "mac",
+      "date": "2026-09-10",
+      "minutes": 8,
+      "es": {
+        "title": "La curva de rendimientos invertida: qué mide y qué no",
+        "excerpt": "Es el indicador de recesión más citado y uno de los peor entendidos. Qué significa que el bono a dos años rinda más que el de diez, y por qué no es un reloj."
+      },
+      "en": {
+        "title": "The inverted yield curve: what it measures and what it doesn't",
+        "excerpt": "It's the most quoted recession indicator and one of the least understood. What it means when the two-year bond yields more than the ten-year, and why it isn't a clock."
+      }
+    },
+    {
+      "slug": "per-barato-caro",
+      "cat": "res",
+      "date": "2026-09-03",
+      "minutes": 7,
+      "es": {
+        "title": "El PER bajo no significa barato: cuatro formas de que el ratio te engañe",
+        "excerpt": "Un PER de 8 parece una ganga hasta que miras por qué el mercado paga tan poco. Beneficios en el pico del ciclo, partidas extraordinarias y deuda que el ratio no ve."
+      },
+      "en": {
+        "title": "A low P/E doesn't mean cheap: four ways the ratio can fool you",
+        "excerpt": "A P/E of 8 looks like a bargain until you ask why the market pays so little. Peak-cycle earnings, one-off items and debt the ratio can't see."
+      }
+    },
+    {
+      "slug": "etf-acumulacion-distribucion-domicilio",
+      "cat": "edu",
+      "date": "2026-08-27",
+      "minutes": 9,
+      "es": {
+        "title": "El mismo índice, dos ETF distintos: domicilio, acumulación y lo que pagas sin saberlo",
+        "excerpt": "Para un inversor latinoamericano, dónde está domiciliado un ETF puede importar casi tanto como el índice que replica. Retenciones, herencias y dividendos, explicados."
+      },
+      "en": {
+        "title": "Same index, two different ETFs: domicile, accumulation and what you pay without knowing",
+        "excerpt": "For a Latin American investor, where an ETF is domiciled can matter almost as much as the index it tracks. Withholding tax, estate tax and dividends, explained."
+      }
+    },
+    {
+      "slug": "fondo-de-emergencia",
+      "cat": "edu",
+      "date": "2026-08-20",
+      "minutes": 6,
+      "es": {
+        "title": "Fondo de emergencia: cuánto, dónde y por qué no es una inversión",
+        "excerpt": "Es el primer paso antes de invertir un solo dólar, y el que más gente se salta. Cómo calcular el tuyo y dónde tenerlo para que cumpla su función."
+      },
+      "en": {
+        "title": "Emergency fund: how much, where, and why it isn't an investment",
+        "excerpt": "It's the first step before investing a single dollar, and the one most people skip. How to size yours and where to keep it so it does its job."
+      }
+    },
+    {
+      "slug": "flujo-de-caja-libre",
+      "cat": "res",
+      "date": "2026-08-13",
+      "minutes": 8,
+      "es": {
+        "title": "Flujo de caja libre: la cifra que cuesta más maquillar",
+        "excerpt": "El beneficio es una opinión contable; la caja es un hecho. Cómo se calcula el flujo de caja libre y qué te dice cuando no cuadra con el beneficio."
+      },
+      "en": {
+        "title": "Free cash flow: the figure that is hardest to dress up",
+        "excerpt": "Profit is an accounting opinion; cash is a fact. How free cash flow is calculated and what it tells you when it doesn't match reported profit."
+      }
+    },
+    {
+      "slug": "inflacion-economia-dolarizada",
+      "cat": "mac",
+      "date": "2026-08-06",
+      "minutes": 8,
+      "es": {
+        "title": "Inflación en una economía dolarizada: lo que Panamá no puede controlar",
+        "excerpt": "Sin banco central que fije tasas ni moneda propia que devaluar, la inflación panameña se decide en buena parte fuera del país. Qué significa eso para tus ahorros."
+      },
+      "en": {
+        "title": "Inflation in a dollarised economy: what Panama cannot control",
+        "excerpt": "With no central bank setting rates and no currency of its own to devalue, much of Panama's inflation is decided abroad. What that means for your savings."
+      }
+    },
+    {
+      "slug": "interes-compuesto-empezar-pronto",
+      "cat": "edu",
+      "date": "2026-07-30",
+      "minutes": 7,
+      "es": {
+        "title": "Interés compuesto: por qué quince años a los veinte valen más que treinta a los treinta y cinco",
+        "excerpt": "Dos personas ahorran lo mismo cada mes. Una empieza antes y para; la otra empieza tarde y nunca para. El resultado no se parece a lo que la intuición espera."
+      },
+      "en": {
+        "title": "Compound interest: why fifteen years in your twenties beat thirty from thirty-five",
+        "excerpt": "Two people save the same amount each month. One starts early and stops; the other starts late and never stops. The result is not what intuition expects."
+      }
+    },
+    {
       "slug": "leer-estado-de-resultados",
       "cat": "edu",
       "date": "2026-07-23",

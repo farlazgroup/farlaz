@@ -396,6 +396,7 @@
 
   function run() {
     renderModuleIndex();
+    if (!document.querySelector("[data-modules]")) renderPremium();
     renderModule();
     renderArticle();
     mostrar();

@@ -4,7 +4,7 @@ Este documento existe para que cualquier conversación nueva de Claude pueda
 continuar el trabajo sin empezar de cero. Contiene el estado del proyecto, las
 decisiones tomadas y por qué, y lo que queda pendiente.
 
-Última actualización: 27 de julio de 2026.
+Última actualización: 10 de noviembre de 2026.
 
 ---
 
@@ -250,3 +250,25 @@ GitHub. Netlify republica solo en un par de minutos.
 Ojo con un detalle histórico: el sitio antiguo tenía el correo escrito como
 `conact@farlaz.com`, sin la «t». Está corregido en el sitio nuevo, pero puede
 seguir circulando en materiales antiguos.
+
+
+---
+
+## 10. Actualización de noviembre de 2026
+
+- **Artículos programados.** `content/posts.json` tiene 35 artículos. Los que tienen
+  fecha futura no se muestran hasta ese día (hora de Panamá): lo hace `publishedOnly()`
+  en `assets/js/main.js`. Hay uno por jueves hasta el 18 de febrero de 2027. Para
+  programar más, añadir la ficha con su fecha y el cuerpo en un `articles-*.js`.
+- **Cuerpos de artículos** en `assets/js/articles-a.js` a `articles-h.js`.
+  `assets/js/posts.js` es una copia de respaldo de `content/posts.json`: si se
+  edita uno, regenerar el otro.
+- **Feed RSS** en `/feed.xml` (español) y `/en/feed.xml` (inglés), servido por la
+  función `netlify/functions/feed.mjs`. Solo incluye artículos ya publicados. Es lo
+  que lee MailerLite para enviar el boletín de los jueves.
+- **Academia:** página `academy.html` (`/academy`) con formulario Netlify `academia`
+  para la lista de espera. El botón de `learn.html` apunta ahí.
+- **Junta directiva:** convocatoria cerrada; el aviso emergente está desactivado
+  (`initPromo` comentado en `main.js`).
+- **URLs canónicas** sin `www`, porque `www.farlaz.com` redirige a `farlaz.com`.
+- Se borraron de la raíz las copias duplicadas de archivos que viven en `assets/`.
